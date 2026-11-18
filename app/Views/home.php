@@ -210,12 +210,12 @@ $homeEscape = static function ($value) {
             </h2>
 
             <p class="mt-6 text-base font-medium sm:text-lg">
-                Welcome to Toyota Baguio City
+                Welcome to Toyota Ilocos-Norte
             </p>
 
             <p class="mt-2 max-w-md text-base leading-8 text-gray-600 sm:text-lg">
                 Discover a new perspective on every drive.
-                Your next chapter begins with Toyota Ilocos-Sur.
+                Your next chapter begins with Toyota Ilocos-Norte.
             </p>
         </div>
 
@@ -363,12 +363,11 @@ $homeEscape = static function ($value) {
     <!-- Maps Section -->
     <div class="mx-auto mt-12 w-full max-w-7xl overflow-hidden rounded-none border border-gray-200 bg-gray-100">
         <iframe title="Map showing Toyota Baguio City"
-            src="https://maps.google.com/maps?q=Toyota+Baguio+City%2C+Philippines&amp;z=16&amp;output=embed"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4655.075548185539!2d120.58381357591469!3d18.154873380241728!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x338ec6f77174b4d3%3A0xb7e9d1f7356a9216!2sToyota%20Ilocos%20Norte!5e1!3m2!1sen!2sph!4v1794988637745!5m2!1sen!2sph"
             class="block h-72 w-full border-0 md:h-96" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
             allowfullscreen>
         </iframe>
     </div>
 </section>
-
 
 <?= $this->endSection() ?>

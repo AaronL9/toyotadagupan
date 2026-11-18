@@ -53,7 +53,7 @@
                             </h4>
 
                             <p class="mt-2 text-sm leading-7 text-zinc-300">
-                                Baguio City
+                                Ilocos-Norte
                             </p>
                         </div>
                     </div>
@@ -148,7 +148,7 @@
 
                             <a href="mailto:customercare@toyotailocossur.com"
                                 class="mt-2 block break-words text-sm leading-6 text-zinc-300 underline-offset-4 hover:text-white hover:underline">
-                                customercare@toyotailocossur.com
+                                customercare@toyotailocosnorte.com
                             </a>
                         </div>
                     </div>

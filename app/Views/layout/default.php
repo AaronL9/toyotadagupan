@@ -25,12 +25,12 @@ $tags = $vite->tags(
     <?= $this->include('data-privacy') ?>
 
     <header id="header"
-        class="fixed inset-x-0 top-0 z-50 border-b border-gray-200 bg-white text-black shadow-none transition-colors duration-300">
+        class="sticky inset-x-0 top-0 z-50 border-b border-gray-200 bg-white text-black shadow-none transition-colors duration-300">
         <nav class="mx-auto flex flex-wrap items-center justify-between max-w-7xl px-6 py-4">
 
             <!-- Logo -->
             <a href="/" class="shrink-0" aria-label="Home">
-                <img id="header-logo" class="w-40 h-auto" src="" alt="Logo" />
+                <img id="header-logo" class="w-20 h-auto" src="/static/toyotalogo.png" alt="Logo" />
             </a>
 
             <!-- Mobile toggle and schedule button -->
@@ -102,7 +102,7 @@ $tags = $vite->tags(
                 <div class="col-span-2">
                     <img src="/img/toyota-baguio.png" class="h-14 bg-center w-auto" />
                     <p class="text-gray-300 text-sm pt-2">
-                        Baguio City, 2600
+                        Ilocos Norte, 2900
                     </p>
                 </div>
                 <div>
@@ -147,8 +147,8 @@ $tags = $vite->tags(
             </div>
             <hr class="my-6 border-red-600" />
             <div class="flex flex-col md:flex-row justify-between items-center text-xs text-gray-400 gap-2">
-                <p>© 2026 Toyota Baguio. All rights reserved.</p>
-                <p>Powered by BStech Solutions</p>
+                <p>© 2026 Toyota Ilocos Norte. All rights reserved.</p>
+                <p>Made with passion and commitment by BStech Solutions</p>
             </div>
         </div>
     </footer>

@@ -1,7 +1,7 @@
 <?= $this->extend("layout/default"); ?>
 <?= $this->section("mainContent"); ?>
 
-<section class="relative bg-black text-white">
+<section class="relative bg-white text-black">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24">
         <h1 class="text-4xl md:text-5xl font-bold mt-4 mb-4">Schedule Now</h1>
     </div>
