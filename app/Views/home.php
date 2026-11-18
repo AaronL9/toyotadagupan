@@ -36,20 +36,29 @@ $homeEscape = static function ($value) {
                     <div class="absolute inset-0 flex items-center">
                         <div class="mx-auto w-full max-w-7xl px-16 sm:px-20 lg:px-24">
                             <div class="max-w-2xl text-white">
-                                <span class="mb-6 block h-1 w-16 bg-red-600" aria-hidden="true"></span>
-
-                                <h2 class="text-3xl font-bold leading-tight tracking-tight sm:text-5xl lg:text-6xl">
-                                    Discover beautiful places
-                                </h2>
-
-                                <p class="mt-5 text-base leading-7 text-white/90 sm:text-xl">
-                                    Make every journey memorable.
-                                </p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+
+            <!-- Slide 3 -->
+            <div class="hs-carousel-slide">
+                <div class="relative h-full">
+                    <img src="/images/slide-2.jpg" alt="Beach at sunset" class="h-full w-full object-cover" />
+
+                    <div class="pointer-events-none absolute inset-0 bg-black/40"></div>
+
+                    <div class="absolute inset-0 flex items-center">
+                        <div class="mx-auto w-full max-w-7xl px-16 sm:px-20 lg:px-24">
+                            <div class="max-w-2xl text-white">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
         </div>
     </div>
 
@@ -293,7 +302,21 @@ $homeEscape = static function ($value) {
             </a>
         </div>
 
+        <!-- Right column: team photo -->
+        <div class="relative aspect-[4/3] w-full overflow-hidden rounded-none border border-gray-200 bg-gray-100">
+            <span class="absolute inset-0 grid place-items-center text-sm font-medium text-gray-500">
+                Team photo
+            </span>
 
+            <!-- When your photo is ready, remove the span above and uncomment this image.
+    <img
+        src="/img/team-photo.jpg"
+        alt="Toyota Baguio City marketing team"
+        loading="lazy"
+        class="absolute inset-0 h-full w-full object-cover object-center"
+    />
+    -->
+        </div>
         <!-- Right Content - Image Gallery -->
         <!-- <div class="grid grid-cols-2 gap-6 max-w-2xl mx-auto lg:mx-0">
             <?php for ($i = 0; $i < count($agents); $i++): ?>
@@ -335,6 +358,15 @@ $homeEscape = static function ($value) {
                 <?php endif; ?>
             <?php endfor; ?>
         </div> -->
+    </div>
+
+    <!-- Maps Section -->
+    <div class="mx-auto mt-12 w-full max-w-7xl overflow-hidden rounded-none border border-gray-200 bg-gray-100">
+        <iframe title="Map showing Toyota Baguio City"
+            src="https://maps.google.com/maps?q=Toyota+Baguio+City%2C+Philippines&amp;z=16&amp;output=embed"
+            class="block h-72 w-full border-0 md:h-96" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+            allowfullscreen>
+        </iframe>
     </div>
 </section>
 

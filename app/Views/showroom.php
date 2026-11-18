@@ -3,14 +3,14 @@
 
 <body class="flex flex-col min-h-screen">
 
-    <section class="relative bg-black text-white">
+    <section class="relative bg-zinc-50 text-black">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24">
             <h1 class="text-4xl md:text-5xl font-bold mt-4 mb-4">Showroom</h1>
         </div>
     </section>
 
     <!-- New Vehicles Section (sidebar + grid layout) -->
-    <section class="bg-zinc-100 px-4 py-12 sm:px-6 lg:px-8 lg:py-16" aria-labelledby="new-vehicles-heading">
+    <section class="bg-white px-4 py-12 sm:px-6 lg:px-8 lg:py-16" aria-labelledby="new-vehicles-heading">
         <?php
         $escape = static function ($value) {
             return htmlspecialchars((string) $value, ENT_QUOTES, 'UTF-8');
@@ -27,8 +27,8 @@
 
                 <!-- Category sidebar -->
                 <aside class="w-full shrink-0 lg:sticky lg:top-28 lg:w-56 xl:w-64">
-                    <div class="overflow-hidden rounded-none border border-zinc-200 bg-white">
-                        <div class="border-b border-zinc-100 px-5 py-5">
+                    <div class="overflow-hidden rounded-none border border-white bg-white">
+                        <div class="border-b border-white px-5 py-5">
                             <p class="text-xs font-semibold uppercase tracking-widest text-zinc-500">
                                 Browse by category
                             </p>

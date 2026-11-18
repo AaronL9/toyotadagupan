@@ -2,7 +2,7 @@
 <?= $this->section("mainContent"); ?>
 
 <body class="flex flex-col min-h-screen">
-    <section class="relative bg-black text-white">
+    <section class="relative bg-zinc-50 text-black">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24">
             <h1 class="text-4xl md:text-5xl font-bold mt-4 mb-4">CSR Initiatives</h1>
         </div>

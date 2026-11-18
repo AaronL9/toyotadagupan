@@ -25,7 +25,7 @@ $tags = $vite->tags(
     <?= $this->include('data-privacy') ?>
 
     <header id="header"
-        class="fixed inset-x-0 top-0 z-50 border-b border-gray-200 bg-white text-black shadow-xl transition-colors duration-300">
+        class="fixed inset-x-0 top-0 z-50 border-b border-gray-200 bg-white text-black shadow-none transition-colors duration-300">
         <nav class="mx-auto flex flex-wrap items-center justify-between max-w-7xl px-6 py-4">
 
             <!-- Logo -->
