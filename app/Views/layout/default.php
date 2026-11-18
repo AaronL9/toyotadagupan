@@ -6,7 +6,7 @@ $vite = new Vite();
 $tags = $vite->tags(
     "main.ts",
 )
-?>
+    ?>
 
 <!DOCTYPE html>
 <html lang="en" data-page="<?= isset($page) ? $page : "" ?>">
@@ -25,12 +25,12 @@ $tags = $vite->tags(
     <?= $this->include('data-privacy') ?>
 
     <header id="header"
-        class="fixed inset-x-0 top-0 z-50 bg-[#969696]/[0.41] backdrop-blur-[18px] backdrop-saturate-[185%] rounded-[0px] border border-white/[0.03] shadow-xl text-white transition-colors duration-300">
+        class="fixed inset-x-0 top-0 z-50 border-b border-gray-200 bg-white text-black shadow-xl transition-colors duration-300">
         <nav class="mx-auto flex flex-wrap items-center justify-between max-w-7xl px-6 py-4">
 
             <!-- Logo -->
             <a href="/" class="shrink-0" aria-label="Home">
-                <img id="header-logo" class="w-40 h-auto" src="/static/toyota-baguio.png" alt="Logo" />
+                <img id="header-logo" class="w-40 h-auto" src="" alt="Logo" />
             </a>
 
             <!-- Mobile toggle and schedule button -->
@@ -134,7 +134,7 @@ $tags = $vite->tags(
                         Office Hours
                     </h6>
                     <div class="text-sm text-gray-300 space-y-1">
-                        <p>Mon – Saturday: 8:00 AM – 5:00 PM</p>
+                        <p>Monday – Saturday: 8:00 AM – 5:00 PM</p>
                         <p>Sunday: Closed</p>
                     </div>
                 </div>
@@ -153,31 +153,7 @@ $tags = $vite->tags(
         </div>
     </footer>
 
-    <script>
-        const header = document.getElementById("header");
-        const logo = document.getElementById("header-logo");
 
-        function updateHeader() {
-            const scrolled = window.scrollY > 50;
-
-            // Header background and text
-            header.classList.toggle("bg-transparent", !scrolled);
-            header.classList.toggle("text-white", !scrolled);
-            header.classList.toggle("bg-white", scrolled);
-            header.classList.toggle("text-gray-900", scrolled);
-            header.classList.toggle("shadow-md", scrolled);
-
-            // Logo: original white at the top, black after scrolling
-            logo.classList.toggle("brightness-0", scrolled);
-        }
-
-        window.addEventListener("scroll", updateHeader, {
-            passive: true
-        });
-        window.addEventListener("pageshow", updateHeader);
-
-        updateHeader();
-    </script>
 
     <?= $tags->js ?>
 </body>
