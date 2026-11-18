@@ -30,7 +30,7 @@ $tags = $vite->tags(
 
             <!-- Logo -->
             <a href="/" class="shrink-0" aria-label="Home">
-                <img id="header-logo" class="w-20 h-auto" src="/static/toyotalogo.png" alt="Logo" />
+                <img id="header-logo" class="w-50 h-auto" src="/static/toyota-ilocos-norte-logo.jpeg" alt="Logo" />
             </a>
 
             <!-- Mobile toggle and schedule button -->
