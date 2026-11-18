@@ -53,7 +53,7 @@
                             </h4>
 
                             <p class="mt-2 text-sm leading-7 text-zinc-300">
-                                Ilocos-Norte
+                                Ilocos Norte
                             </p>
                         </div>
                     </div>
