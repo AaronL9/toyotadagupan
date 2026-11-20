@@ -76,7 +76,7 @@
                     <h2 class="text-2xl md:text-3xl font-bold text-gray-900 mt-2 mb-4">Your Rights</h2>
                     <div class="space-y-4 text-gray-600 leading-relaxed">
                         <p>Should you also wish to access, update, or correct certain personal information, or withdraw consent to the use of any of your information as set out in this policy, you may communicate with us through
-                            <a href="mailto:customercare@toyotailocossur.com" class="text-red-600 font-medium hover:underline">customercare@toyotailocosnorte.com</a>.
+                            <a href="mailto:customercare@toyotailocosnorte.com" class="text-red-600 font-medium hover:underline">customercare@toyotailocosnorte.com</a>.
                         </p>
                     </div>
                 </div>
@@ -121,11 +121,11 @@
                         <p>If you have any questions about this Privacy Policy, please reach out to either of the addresses below.</p>
                     </div>
                     <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                        <a href="mailto:customercare@toyotailocossur.com" class="group bg-gray-100 rounded-lg p-5 hover:bg-gray-900 transition-colors">
+                        <a href="mailto:customercare@toyotailocosnorte.com" class="group bg-gray-100 rounded-lg p-5 hover:bg-gray-900 transition-colors">
                             <p class="text-xs uppercase tracking-wide text-gray-500 group-hover:text-gray-400 mb-1">Customer Relations</p>
-                            <p class="font-semibold text-gray-900 group-hover:text-white transition-colors">customercare@toyotailocossur.com</p>
+                            <p class="font-semibold text-gray-900 group-hover:text-white transition-colors">customercare@toyotailocosnorte.com</p>
                         </a>
-                        <a href="mailto:customercare@toyotailocossur.com" class="group bg-gray-100 rounded-lg p-5 hover:bg-gray-900 transition-colors">
+                        <a href="mailto:customercare@toyotailocosnorte.com" class="group bg-gray-100 rounded-lg p-5 hover:bg-gray-900 transition-colors">
                             <p class="text-xs uppercase tracking-wide text-gray-500 group-hover:text-gray-400 mb-1">Data Protection Officer</p>
                             <p class="font-semibold text-gray-900 group-hover:text-white transition-colors">---------------------</p>
                         </a>
