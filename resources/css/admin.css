@@ -14,6 +14,11 @@
 @import "../../node_modules/@preline/select/variants.css";
 @import "../../node_modules/@preline/select/theme.css";
 
+/* @preline/dropdown */
+@source "../../node_modules/@preline/dropdown/*.js";
+@import "../../node_modules/@preline/dropdown/variants.css";
+@import "../../node_modules/@preline/dropdown/theme.css";
+
 /* Plugins */
 @plugin "@tailwindcss/forms";
 

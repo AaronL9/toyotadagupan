@@ -9,6 +9,16 @@
 @source "../node_modules/preline/dist/*.js";
 @import "../node_modules/preline/variants.css";
 
+/* @preline/select */
+@source "../node_modules/@preline/select/*.js";
+@import "../node_modules/@preline/select/variants.css";
+@import "../node_modules/@preline/select/theme.css";
+
+/* @preline/dropdown */
+@source "../node_modules/@preline/dropdown/*.js";
+@import "../node_modules/@preline/dropdown/variants.css";
+@import "../node_modules/@preline/dropdown/theme.css";
+
 /* Plugins */
 @plugin "@tailwindcss/forms";
 

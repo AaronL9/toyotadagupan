@@ -18,6 +18,11 @@
 @import "../node_modules/@preline/carousel/variants.css";
 @import "../node_modules/@preline/carousel/theme.css";
 
+/* @preline/tabs */
+@source "../node_modules/@preline/tabs/*.js";
+@import "../node_modules/@preline/tabs/variants.css";
+@import "../node_modules/@preline/tabs/theme.css";
+
 /* Plugins */
 @plugin "@tailwindcss/forms";
 

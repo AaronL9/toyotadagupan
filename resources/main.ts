@@ -1,5 +1,7 @@
 import 'preline';
 import "@preline/carousel";
+import "@preline/tabs";
+
 import './style.css';
 
 import Alpine from 'alpinejs';
@@ -17,7 +19,7 @@ const page = document.documentElement.dataset.page;
 const routes: Record<string, () => void> = {
   'vehicle': VehiclePage,
   'contact': Contact,
-  'schedule': Schedule
+  'schedule': Schedule,
 };
 
 if (page && routes[page]) {
