@@ -19,6 +19,16 @@
 @import "../../node_modules/@preline/dropdown/variants.css";
 @import "../../node_modules/@preline/dropdown/theme.css";
 
+/* @preline/overlay */
+@source "../../node_modules/@preline/overlay/*.js";
+@import "../../node_modules/@preline/overlay/variants.css";
+@import "../../node_modules/@preline/overlay/theme.css";
+
+/* @preline/overlay */
+@source "../../node_modules/@preline/overlay/*.js";
+@import "../../node_modules/@preline/overlay/variants.css";
+@import "../../node_modules/@preline/overlay/theme.css";
+
 /* Plugins */
 @plugin "@tailwindcss/forms";
 

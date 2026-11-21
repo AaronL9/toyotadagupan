@@ -1,6 +1,7 @@
 import "preline";
 import "@preline/select";
 import "@preline/dropdown";
+import "@preline/overlay";
 
 import "./admin.css";
 // import "../../fortawesome/fontawesome-free/css/all.css";
