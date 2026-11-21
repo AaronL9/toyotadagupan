@@ -100,7 +100,7 @@ $tags = $vite->tags(
         <div class="max-w-7xl mx-auto px-4">
             <div class="grid grid-cols-5 md:grid-cols-5 items-start gap-6">
                 <div class="col-span-2">
-                    <img src="/img/toyota-baguio.png" class="h-14 bg-center w-auto" />
+                    <img src="/static/toyota-ilocos-norte-logo.jpeg" class="h-14 bg-center w-auto" />
                     <p class="text-gray-300 text-sm pt-2">
                         Ilocos Norte, 2900
                     </p>

@@ -1,4 +1,4 @@
-<?= $this->extend("admin/layout/admin_layout"); ?>
+<?= $this->extend("admin/layout/admin_layout") ?>
 
 <?php $admin = session()->get("admin") ?>
 
@@ -13,7 +13,7 @@
                 </button>
                 <div class="flex items-center gap-4">
                     <div class="leading-tight">
-                        <p class="text-sm font-semibold text-gray-800 tracking-wide">Toyota Ilocos Sur</p>
+                        <p class="text-sm font-semibold text-gray-800 tracking-wide">Toyota Ilocos Norte</p>
                         <p class="text-[10px] text-gray-400 tracking-widest uppercase">Dealer Management System</p>
                     </div>
                 </div>

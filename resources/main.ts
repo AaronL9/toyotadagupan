@@ -1,4 +1,5 @@
 import 'preline';
+import "@preline/carousel";
 import './style.css';
 
 import Alpine from 'alpinejs';

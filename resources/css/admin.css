@@ -73,4 +73,4 @@
     --color-info-950: #172554;
 }
 
-@source '../../app/Views/admin/**/*.php';
+@source '../../app/Views/**/*.php';

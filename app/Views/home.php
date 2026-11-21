@@ -16,49 +16,18 @@ $homeEscape = static function ($value) {
         <div
             class="hs-carousel-body absolute bottom-0 start-0 top-0 flex flex-nowrap opacity-0 transition-transform duration-700">
 
-            <!-- Slide 1 -->
-            <div class="hs-carousel-slide">
-                <div class="relative h-full">
-                    <img src="/img/carousel2-ExbEmYc-.jpg" alt="Toyota featured promotion" fetchpriority="high"
-                        class="h-full w-full object-cover" />
-
-                    <div class="pointer-events-none absolute inset-0 bg-black/30"></div>
-                </div>
-            </div>
-
-            <!-- Slide 2 -->
-            <div class="hs-carousel-slide">
-                <div class="relative h-full">
-                    <img src="/images/slide-2.jpg" alt="Beach at sunset" class="h-full w-full object-cover" />
-
-                    <div class="pointer-events-none absolute inset-0 bg-black/40"></div>
-
-                    <div class="absolute inset-0 flex items-center">
-                        <div class="mx-auto w-full max-w-7xl px-16 sm:px-20 lg:px-24">
-                            <div class="max-w-2xl text-white">
-                            </div>
+            <?php foreach ($banners as $row): ?>
+                <div class="hs-carousel-slide">
+                    <div class="relative h-full">
+                        <img src="/uploads/img/banners/<?= $row->banner_photo ?>" alt="Mountain landscape"
+                            class="h-full w-full object-cover" />
+                        <div class="absolute inset-0 flex items-center justify-center px-16 text-center text-white">
                         </div>
                     </div>
                 </div>
-            </div>
 
-            <!-- Slide 3 -->
-            <div class="hs-carousel-slide">
-                <div class="relative h-full">
-                    <img src="/images/slide-2.jpg" alt="Beach at sunset" class="h-full w-full object-cover" />
-
-                    <div class="pointer-events-none absolute inset-0 bg-black/40"></div>
-
-                    <div class="absolute inset-0 flex items-center">
-                        <div class="mx-auto w-full max-w-7xl px-16 sm:px-20 lg:px-24">
-                            <div class="max-w-2xl text-white">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
+                <!-- <div class="absolute inset-0"></div> -->
+            <?php endforeach; ?>
         </div>
     </div>
 
@@ -308,14 +277,6 @@ $homeEscape = static function ($value) {
                 Team photo
             </span>
 
-            <!-- When your photo is ready, remove the span above and uncomment this image.
-    <img
-        src="/img/team-photo.jpg"
-        alt="Toyota Baguio City marketing team"
-        loading="lazy"
-        class="absolute inset-0 h-full w-full object-cover object-center"
-    />
-    -->
         </div>
         <!-- Right Content - Image Gallery -->
         <!-- <div class="grid grid-cols-2 gap-6 max-w-2xl mx-auto lg:mx-0">
