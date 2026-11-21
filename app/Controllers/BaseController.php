@@ -45,14 +45,9 @@ abstract class BaseController extends Controller
         // $this->session = service('session');
         cache()->delete('modules');
 
-        $sidebar = cache()->remember('modules', 3600, function () {
-            return (new ModulesModel())->orderBy('mod_order')->findAll();
-        });
-
         $config = new ConfigModel();
 
         service('renderer')->setData([
-            'modules' => $sidebar,
             'config' => $config->getConfigs()
         ]);
     }
